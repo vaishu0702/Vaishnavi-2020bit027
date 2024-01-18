@@ -1,0 +1,5 @@
+16. Sixth Query
+
+SELECT * FROM CUSTOMERS C1
+WHERE C1.id in (select o1.customer_id from Orders o1 where ci.id = o1.customer_id order by count(o1.customer_id) limit 3);
+                

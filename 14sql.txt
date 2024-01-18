@@ -1,0 +1,5 @@
+
+14. Fourth Query
+
+Delete from Logs
+where Datetime>1 year;

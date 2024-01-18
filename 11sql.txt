@@ -1,0 +1,6 @@
+SQL Queries:
+
+11. First query 
+
+select * from customers c1
+where c1.id in (select o1.customer_id from Orders o1 where ci.id = o1.customer_id );

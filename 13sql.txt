@@ -1,0 +1,4 @@
+13. Third Query
+
+update city = 'Mumbai' from Customers 
+where city = 'Delhi;

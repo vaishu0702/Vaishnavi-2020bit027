@@ -1,0 +1,4 @@
+12. Second Query
+
+select avg(Net Total) from orders
+group by Customer_ID;

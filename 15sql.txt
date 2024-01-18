@@ -1,0 +1,5 @@
+15. Fifth Query
+
+Select * from Employees
+order by salary asc
+limit 5;
